@@ -3,10 +3,7 @@ def exercise_1
   puts RUBY_PATCHLEVEL
 end
 
-def exercise_2
-  puts time1 = Time.new
-  puts "Current Time : " + time1.inspect
-end
+ 
 
 def exercise_3(str, n)
   puts str * n
