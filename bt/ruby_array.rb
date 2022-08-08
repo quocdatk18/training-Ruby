@@ -4,7 +4,7 @@
 def exercise1(arr)
   puts 'enter the value to be checked'
   input = gets.chomp
-  arr.to_s.include? input.to_s
+  arr.include? input
 end
 
 def exercise2(arr)
@@ -24,7 +24,7 @@ def exercise5(arr)
 end
 
 def exercise6(arr)
-  arr.unip
+  arr.uniq
 end
 
 def exercise7(arr1, arr2)
