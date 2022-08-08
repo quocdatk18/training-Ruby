@@ -265,7 +265,7 @@ end
 
 def exercise49(number1, number2, number3)
   array = %W[#{number1} #{number2} #{number3}]
-  array1 = array.map(&:to_)
+  array1 = array.map(&:to_i)
   array2 = array1.select { |i| i < 20 }
   array2.length.positive?
 end
